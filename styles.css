@@ -1,0 +1,32 @@
+* {
+    display: border-box;
+    margin: 0;
+    padding: 0;
+}
+#start-button {
+    background: white;
+    display: flex;
+    margin: auto;
+    margin-top: 30%;
+}
+#plates-container {
+    display: flex-box;
+    border: solid;
+    width: 340px;
+    height: 230px;
+    padding: 0.8rem;
+    background-color: gold;
+}
+.plate {
+    margin: 0.2rem;
+    display: inline-block;
+    border: solid;
+    background-color: green;
+    height: 100px;
+    width: 100px;
+}
+img {
+    height: 100px;
+    width: 100px;
+    visibility: hidden;
+}

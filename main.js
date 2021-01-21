@@ -13,7 +13,7 @@ function populateElements() {
         const plateId = getRandomElement(plates);
         const image = plateId.substring(0, plateId.length -1)+".png";
         document.getElementById("plates-container").innerHTML +=
-        `<div class="plate" id="${plateId}" onclick="showImage('${plateId}','${image}')"><img id="${plateId}-image" src="images/${image}"></div>`
+        `<div class="plate" id="${plateId}" onclick="showImage('${plateId}','${image}')"><img id="${plateId}-image" src="${image}"></div>`
         plates = plates.filter( plate => plate != plateId )
     }
     document.getElementById("plates-container").innerHTML += `<p id="tries">Tries: 0</p>`

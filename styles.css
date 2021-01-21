@@ -12,6 +12,8 @@
 #plates-container {
     display: flex-box;
     border: solid;
+    margin: auto;
+    margin-top: 25vh;
     width: 340px;
     height: 230px;
     padding: 0.8rem;
